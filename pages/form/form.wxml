@@ -1,0 +1,26 @@
+<view class="btn">
+  <button type="primary">按钮</button>
+  <button type="default">按钮</button>
+  <button type="warn">按钮</button>
+  <button disabled>禁用</button>
+  <button loading>登录中</button>
+  <button plain>镂空</button>
+  <button size="mini" plain>小按钮</button>
+  <button type="primary" open-type="contact">联系客服</button>
+</view>
+
+<view class="input">
+  <input type="text" placeholder="请输入用户名" auto-focus></input>
+</view>
+
+<view class="switch">
+  <switch>关闭</switch>
+</view>
+
+<view class="icon">
+  <icon type="success" size="50"></icon><icon type="download" size="50"></icon>
+</view>
+
+<view class="progress">
+  <progress percent="50" show-info active></progress>
+</view>

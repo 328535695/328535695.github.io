@@ -1,0 +1,5 @@
+view{ margin-top: 10px; border-bottom: 1px solid #000;}
+.btn button{ margin-bottom: 10px;}
+.input input{ border-radius: 5px; border:1px #ccc solid; padding:5px; margin:0 10px 10px 10px;}
+.switch switch{ margin-bottom: 10px;}
+.progress progress{ margin-bottom: 10px; }

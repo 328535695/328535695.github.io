@@ -1,0 +1,17 @@
+<scroll-view scroll-x scroll-left="110">
+  <view class="scrollXView">
+    <view>111</view>
+    <view>222</view>
+    <view>333</view>
+    <view>444</view>
+    <view>555</view>
+  </view>
+</scroll-view>
+
+<scroll-view scroll-y class="scrollYView" scroll-top="125">
+    <view>111</view>
+    <view>222</view>
+    <view>333</view>
+    <view>444</view>
+    <view>555</view>
+</scroll-view>

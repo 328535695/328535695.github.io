@@ -1,0 +1,6 @@
+/* pages/scrollView/scrollView.wxss */
+.scrollXView{ height:150px; display:flex; flex-wrap: nowrap;}
+.scrollXView view{ width:150px; height:150px;margin-right: 2px; background-color: salmon; flex: 0 0 150px;}
+
+.scrollYView{ height:175px; width: 100%;}
+.scrollYView view{ width:100%; height:50px; background-color: pink; margin-bottom: 2px;}

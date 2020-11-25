@@ -1,0 +1,2 @@
+.box{ width: 100px; height:100px; line-height:100px; background-color: red; text-align: center;}
+image{ width: 100%;}

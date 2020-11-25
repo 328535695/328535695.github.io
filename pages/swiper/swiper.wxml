@@ -1,0 +1,11 @@
+<swiper class="banner" indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="rgba(0,0,0,0.5)" autoplay circular previous-margin="20" next-margin="20">
+  <swiper-item>
+    <image src="/images/images.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/images.jpg" mode="widthFix"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/images.jpg" mode="widthFix"></image>
+  </swiper-item>
+</swiper>

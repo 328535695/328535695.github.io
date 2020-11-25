@@ -1,0 +1,6 @@
+<view wx:for="{{ 5 }}" wx:key="*this">循环遍历</view>
+<view wx:for="{{ listArr }}" wx:key="*this">{{ index }} - {{ item }}</view>
+<view wx:for="{{ listArr }}" wx:for-index="i" wx:for-item="con" wx:key="*this">{{ i }} - {{ con }}</view>
+<view wx:for="{{ objArr }}" wx:key="*this">{{ item.title }} - {{ item.time }}</view>
+<view wx:for="{{ objArr }}" wx:for-item="con" wx:for-index="i" wx:key="*this">{{i+1}}、{{ con.title }} - {{ con.time }}</view>
+<view style="height:500px;"></view>

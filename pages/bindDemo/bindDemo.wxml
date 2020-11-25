@@ -1,0 +1,4 @@
+<view bindtap="mytap" data-myName="黑泽明" data-id="myId" data-back-ground-color="#fff">{{name}}</view>
+<view bindtap="mytouchstart">手指触摸动作开始</view>
+<view bindtap="mytouchmove">手指触摸后移动</view>
+<view bindtap="changeStyle" style=" transition:0.5s;height:{{hig}};width:{{wid}};background-color:{{bgColor}}" data-height="100px" data-width="300px" data-backgroundcolor="pink"></view>

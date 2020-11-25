@@ -1,0 +1,8 @@
+<view class="box">This is a Box!</view>
+<image src="/images/images.jpg" mode="widthFix" show-menu-by-longpress></image>
+<image src="/images/gdsw_index_zyqcfz02.png" mode="widthFix" />
+<image src="https://i0.hdslb.com/bfs/live/user_cover/1e924f17e894caf922c4710eec3795b112a4bc10.jpg@338w_211h.webp"></image>
+<navigator url="/pages/logs/logs">跳转到启动日志</navigator>
+<navigator url="/pages/logs/logs" open-type="redirect">跳转到新页面，无法返回</navigator>
+<navigator url="/pages/scrollView/scrollView" open-type="switchTab">测试跳转tapbar页</navigator>
+<button type="primary" bindtap="clickUrl">测试跳转tapbar页</button>

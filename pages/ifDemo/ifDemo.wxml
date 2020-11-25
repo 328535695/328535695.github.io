@@ -1,0 +1,23 @@
+<view>{{ title }}</view>
+<view>{{ listArr }}</view>
+<view>{{ listArr[0] }}</view>
+<view>{{ obj.name }}:{{obj.age}}</view>
+
+<view wx:if="{{ day==1 }}">周一</view>
+<view wx:elif="{{ day==2 }}">周二</view>
+<view wx:elif="{{ day==3 }}">周三</view>
+<view wx:elif="{{ day==4 }}">周四</view>
+<view wx:elif="{{ day==5 }}">周五</view>
+<view wx:elif="{{ day==6 }}">周六</view>
+<view wx:elif="{{ day==7 }}">周日</view>
+<view wx:else>错误</view>
+
+<block wx:if="{{ true }}">
+<view>title</view>
+<view>content</view>
+</block>
+
+<block wx:else>
+<view>title2</view>
+<view>content2</view>
+</block>

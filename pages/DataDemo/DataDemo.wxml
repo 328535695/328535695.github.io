@@ -1,0 +1,9 @@
+<view class="con" wx:for="{{dataList}}" wx:key="index">
+  <view class="img">
+    <image src="{{item.url}}"></image>
+  </view>
+  <view class="text">
+    <text class="title">{{item.title}}</text>
+    <text class="time">[{{item.time}}]</text>
+  </view>
+</view>

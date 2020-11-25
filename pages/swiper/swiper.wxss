@@ -1,0 +1,3 @@
+image{ width:100%;}
+swiper-item{ padding:0 5px; box-sizing: border-box;}
+.banner{ height:750rpx;}
